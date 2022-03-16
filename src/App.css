@@ -1,0 +1,10 @@
+.manageSp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 1%;
+}
+.App{
+    background-color: black;
+}

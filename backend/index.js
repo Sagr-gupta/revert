@@ -1,8 +1,8 @@
-const express = require('express');
-const mongoose=require('mongoose');
+const express = require('express')
+const mongoose = require('mongoose')
 const path = require('path')
-const dotenv = require('dotenv') 
-var cors = require('cors');
+const dotenv = require('dotenv')
+var cors = require('cors')
 
 
 
@@ -67,3 +67,7 @@ app.use(require("./routes/todo"))
 app.listen(8000, function () {
   console.log('Example app listening on port 3000!')
 });
+
+app.get('/' , (req , res)=>{
+    res.send('herfbrv ')
+})

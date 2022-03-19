@@ -18,6 +18,9 @@
     "express": "^4.17.3",
     "express-session": "^1.17.2",
     "mongoose": "^6.2.7",
-    "moongoose": "0.0.5"
+    "moongoose": "0.0.5",
+    "engines": {
+      "node": "14.18.0"
+    }
   }
 }
